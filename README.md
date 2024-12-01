@@ -22,24 +22,25 @@ The repository is organized as follows:
 ```
 credit-card-fraud-detection/
 ├── data/
-│   └── creditcard.csv               # Raw dataset
+│   └── creditcard.csv                     # Raw dataset
 ├── models/
-│   ├── logistic_model.pkl           # Serialized Logistic Regression model
-│   ├── random_forest_model.pkl      # Serialized Random Forest model
-│   └── xgboost_model.pkl            # Serialized XGBoost model
+│   ├── logistic_model.pkl                 # Serialized Logistic Regression model
+│   ├── random_forest_model.pkl            # Serialized Random Forest model
+│   └── xgboost_model.pkl                  # Serialized XGBoost model
 ├── notebooks/
-│   ├── logistic_regression.ipynb    # Notebook for Logistic Regression model
-│   ├── random_forest.ipynb          # Notebook for Random Forest model
-│   └── xgboost.ipynb                # Notebook for XGBoost model
+│   ├── CreditCardFraudDetection_LogisticRegression.ipynb    # Logistic Regression notebook
+│   ├── CreditCardFraudDetection_XGBoost.ipynb               # XGBoost notebook
+│   ├── CreditCardFraudDetection_randomforest.ipynb          # Random Forest notebook
+│   └── Model_Evaluation_and_Deployment.ipynb                # Model evaluation and deployment notebook
 ├── visuals/
-│   ├── fraud_plot.png               # Class distribution plot
-│   ├── ROC_Curve_Comparison.png     # ROC Curve Comparison
-│   ├── Precision_Recall_Curve.png   # Precision-Recall Curve
-│   └── feature_importance_rf.png    # Random Forest Feature Importance
+│   ├── Comparison Plots                 # Folder containing comparison plots
+│   ├── LogisticRegression plots         # Folder containing Logistic Regression plots
+│   ├── Randomforest plots               # Folder containing Random Forest plots
+│   └── XGboost plots                    # Folder containing XGBoost plots
 ├── docs/
-│   └── CreditCardFraud_Project_Report.pdf # Project report
-├── README.md                        # Project overview and instructions
-└── requirements.txt                 # Python dependencies
+│   └── CreditCardFraudDetection_ProjectReport.pdf  # Project report
+├── README.md                              # Project overview and instructions
+└── requirements.txt                       # Python dependencies
 
 ```
 
