@@ -1,10 +1,17 @@
-# Credit Card Fraud Detection Project
+# FindDefault (Prediction of Credit Card fraud) 
 
 ## Project Overview
 This project aims to detect fraudulent credit card transactions using machine learning. Three classification algorithms were implemented and evaluated: Random Forest, Logistic Regression, and XGBoost. The objective is to identify the best-performing model for fraud detection, balancing precision, recall, and accuracy to minimize false positives and false negatives.
 
 ## Problem Statement
-Credit card fraud is a significant problem in financial transactions, resulting in substantial losses. The goal of this project is to build a model that accurately detects fraudulent transactions, thereby protecting cardholders and financial institutions from unauthorized charges.
+A credit card is one of the most used financial products to make online purchases and 
+payments. Though the Credit cards can be a convenient way to manage your finances, they can 
+also be risky. Credit card fraud is the unauthorized use of someone else's credit card or credit 
+card information to make purchases or withdraw cash. 
+It is important that credit card companies are able to recognize fraudulent credit card 
+transactions so that customers are not charged for items that they did not purchase.  
+
+The goal of this project is to build a model that accurately detects fraudulent transactions, thereby protecting cardholders and financial institutions from unauthorized charges.
 
 ## Dataset
 The dataset used for this project contains transactions made by European credit cardholders in September 2013. It includes 284,807 transactions, with 492 fraudulent cases. The dataset is highly imbalanced, with fraud cases constituting only 0.172% of all transactions.
