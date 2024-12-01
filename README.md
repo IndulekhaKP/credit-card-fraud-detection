@@ -30,6 +30,8 @@ The repository is organized as follows:
 credit-card-fraud-detection/
 ├── data/
 │   └── creditcard.csv                     # Raw dataset
+├── docs/
+│   └── CreditCardFraudDetection_ProjectReport.pdf  # Project report
 ├── models/
 │   ├── logistic_model.pkl                 # Serialized Logistic Regression model
 │   ├── random_forest_model.pkl            # Serialized Random Forest model
@@ -40,20 +42,19 @@ credit-card-fraud-detection/
 │   ├── CreditCardFraudDetection_randomforest.ipynb          # Random Forest notebook
 │   └── Model_Evaluation_and_Deployment.ipynb                # Model evaluation and deployment notebook
 ├── visuals/
-│   ├── Comparison Plots                 # Folder containing comparison plots
-│   ├── LogisticRegression plots         # Folder containing Logistic Regression plots
-│   ├── Randomforest plots               # Folder containing Random Forest plots
-│   └── XGboost plots                    # Folder containing XGBoost plots
-├── docs/
-│   └── CreditCardFraudDetection_ProjectReport.pdf  # Project report
+│   ├── Comparison Plots                   # Folder containing comparison plots
+│   ├── LogisticRegression plots           # Folder containing Logistic Regression plots
+│   ├── Randomforest plots                 # Folder containing Random Forest plots
+│   └── XGboost plots                      # Folder containing XGBoost plots
 ├── README.md                              # Project overview and instructions
 └── requirements.txt                       # Python dependencies
 
 ```
 
 ## Model Performance
-| Model              | Accuracy | Precision | Recall | F1-Score |
-|---------------------|----------|-----------|--------|----------|
-| Logistic Regression | 95.8%    | 92.4%     | 85.6%  | 88.8%    |
-| Random Forest       | 97.2%    | 94.6%     | 89.3%  | 91.9%    |
-| XGBoost             | 98.0%    | 95.4%     | 91.2%  | 93.2%    |
+
+| Model                | Accuracy | Precision | Recall | F1-Score |
+|----------------------|----------|-----------|--------|----------|
+| Logistic Regression  | 97.7%   | 6.36%     | 91.67% | 11.90%   |
+| Random Forest        | 99.95%  | 95.24%    | 73.17% | 82.76%   |
+| XGBoost              | 99.94%  | 83.23%    | 84.76% | 83.99%   |
