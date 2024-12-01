@@ -20,8 +20,6 @@ The dataset used for this project contains transactions made by European credit 
 The repository is organized as follows:
 
 ```
-
-
 credit-card-fraud-detection/
 ├── data/
 │   └── creditcard.csv               # Raw dataset
