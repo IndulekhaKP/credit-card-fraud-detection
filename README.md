@@ -19,6 +19,8 @@ The dataset used for this project contains transactions made by European credit 
 ## Project Structure
 The repository is organized as follows:
 
+'''
+
 
 credit-card-fraud-detection/
 ├── data/
@@ -41,6 +43,7 @@ credit-card-fraud-detection/
 ├── README.md                        # Project overview and instructions
 └── requirements.txt                 # Python dependencies
 
+'''
 
 ## Model Performance
 | Model              | Accuracy | Precision | Recall | F1-Score |
